@@ -8,8 +8,12 @@
 
   //Code here
 
+var me = {
+  name: 'Megan',
+  age: 27,
+}
 
-
+// alert(me.name)
 
 
 
@@ -22,6 +26,15 @@
 
   //Code here
 
+  var favoriteThings = {
+    band: 'a',
+    food: 'b',
+    person: 'c',
+    book: 'd', 
+    movie: 'e',
+    holiday: 'f',
+    }
+
 
 
 
@@ -32,6 +45,8 @@
 
   //Code here
 
+  favoriteThings.car = 'g'
+  favoriteThings.brand = 'h'
 
 
 
@@ -40,7 +55,8 @@
 
   //Code here
 
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 
 
@@ -60,14 +76,21 @@ that is named color, with the value being the color of your backpack.
 
   //Code here
 
+var backPack = {
 
+}
 
+var item = 'firstPocket';
 
+backPack[item] = 'chapstick';
 
+backPack.color = 'blue';
 
 //After you do the above, alert your entire backPack object.
 
   //Code here
+
+  // alert(backPack)
 
  
 
@@ -78,7 +101,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
   //Code here
-
+console.log(backPack)
 
 
 
