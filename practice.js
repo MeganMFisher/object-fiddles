@@ -125,7 +125,8 @@ var user2 = {
   //Code Here
 
 
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 // =============================================
@@ -146,7 +147,9 @@ var user2 = {
 
   //Code Here
 
+var methodCollection = {
 
+}
 
 
 /*
@@ -157,7 +160,13 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
   //Code Here
 
+methodCollection.alertHello = function() {
+  alert('hello')
+}
 
+methodCollection.logHello = function() {
+  console.log('hello')
+}
 
 
 
@@ -167,7 +176,9 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
 
 
+methodCollection.alertHello()
 
+methodCollection.logHello()
 
 
 
@@ -181,7 +192,13 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
   //Code Here
 
-
+makePerson = (name, birthday, ssn) => {
+  return {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  }
+}
 
 
 
@@ -197,3 +214,10 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
   //Code Here
 
 
+makeCard = (cardNumber, expirationDate, securityCode) => {
+  return {
+    cardNumber, 
+    expirationDate,
+    securityCode
+  }
+}
